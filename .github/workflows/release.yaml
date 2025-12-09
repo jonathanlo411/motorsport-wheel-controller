@@ -151,6 +151,7 @@ jobs:
       id: release
       uses: softprops/action-gh-release@v1
       with:
+        token: ${{ secrets.GITHUB_TOKEN }}
         tag_name: ${{ github.ref_name }}
         name: Release ${{ github.ref_name }}
         body: ${{ env.RELEASE_NOTES }}
@@ -158,8 +159,6 @@ jobs:
           wheel-firmware-${{ github.ref_name }}.zip
           controller-firmware-${{ github.ref_name }}.zip
           source-${{ github.ref_name }}.tar.gz
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Output Release URL
       run: |
