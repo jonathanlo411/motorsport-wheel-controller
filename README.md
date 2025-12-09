@@ -1,4 +1,5 @@
 <img src="/assets/logos/full.png" alt="team spiral racing logo" width="400"/>
+[![PlatformIO Build](https://github.com/jonathanlo411/motorsport-wheel-controller/actions/workflows/build.yml/badge.svg)](https://github.com/jonathanlo411/motorsport-wheel-controller/actions/workflows/build.yml)
 <a href="https://github.com/jonathanlo411/motorsport-wheel-controller/releases"><img src="https://img.shields.io/github/v/release/jonathanlo411/motorsport-wheel-controller?color=f56827"></a>
 <a href="https://github.com/jonathanlo411/motorsport-wheel-controller/blob/main/LICENSE"><img src="https://img.shields.io/github/license/jonathanlo411/motorsport-wheel-controller"></a>
 
